@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: antiquewhite;
+    justify-content: center;
+    background-color: transparent;
+    display: flex;
+    position: sticky;
+    top: ;
+    z-index: 1;
+    height: 50px;
+    margin-top: 20px;
+    background-color: grey;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(177, 61, 61);
+    font-size: 30px;
+    margin: 20px;
+}
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px rgb(236, 234, 234);
+    text-decoration: underline;
+
+}
+video{
+    width: 100%;
+}
+nav ul img{
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+}
+nav ul h2{
+    position: absolute;
+    left: 80px;
+  bottom: 40px;
+}
+.overlay{
+    position: absolute;
+    left: 80%;
+    right: 60%;
+    top: 20%;
+    text-shadow: 5px 4px 6px black;
+}
+.inner{
+    color: grey;
+}
+h3{
+    background-color: bisque;
+    text-align: center;
+}
+.col img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.row{
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.col{
+    background-color: brown;
+    margin: 5px;
+    border-radius: 5px;
+}
+.col:hover{
+    box-shadow: 4px 6px 12px white;
+}
+.col img:hover{
+    scale: 1.05;
+}
+span{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pic{
+    display: flex;
+}
+footer{
+    background-color: grey;
+    height: 200px;
+    text-align: center;
+}
