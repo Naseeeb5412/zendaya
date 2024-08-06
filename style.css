@@ -21,7 +21,7 @@ nav ul{
 }
 nav ul li a{
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
     color: rgb(177, 61, 61);
     font-size: 30px;
     margin: 20px;
